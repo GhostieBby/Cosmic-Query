@@ -1,0 +1,35 @@
+header {
+  position: fixed;
+  background-color: rgb(255, 255, 255);
+  color: #999;
+  border-bottom: 1px solid #99999990;
+  width: 100%;
+  padding: 0.75rem 3rem;
+  font-weight: 300;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: opacity 0.5s ease;
+  ul {
+    list-style: none;
+    padding: 0;
+    li {
+      display: inline-block;
+      &:not(:first-child) {
+        margin-left: 2rem;
+      }
+      a {
+        text-decoration: none;
+        color: inherit;
+      }
+    }
+  }
+}
+
+.visible {
+  opacity: 1;
+}
+
+.hidden {
+  opacity: 0;
+}
