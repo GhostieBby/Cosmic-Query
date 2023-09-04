@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react'
 import LoadingSpinner from './LoadingSpinner'
 
 const API_KEY = 'HwOHpSPCCVunbSFRGfICfoaOpIJhA8Bdlume5yGS'
-const APOD_ENDPOINT = `/planetary/apod?api_key=${API_KEY}`
+const APOD_ENDPOINT = `/api/planetary/apod?api_key=${API_KEY}`
 
 export default function Home() {
   const [data, setData] = useState([])

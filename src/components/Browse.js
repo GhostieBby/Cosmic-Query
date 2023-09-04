@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 import LoadingSpinner from './LoadingSpinner'
 
 const API_KEY = 'HwOHpSPCCVunbSFRGfICfoaOpIJhA8Bdlume5yGS'
-const ENDPOINT = `/planetary/apod?api_key=${API_KEY}`
+const ENDPOINT = `/api/planetary/apod?api_key=${API_KEY}`
 
 export default function Browse() {
   const currentDate = new Date()

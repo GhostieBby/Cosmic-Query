@@ -1,0 +1,2 @@
+/api/*  https://api.nasa.gov/:splat   200
+/*  /index.html   200
