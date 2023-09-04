@@ -5,7 +5,7 @@ import { useParams } from 'react-router-dom'
 import LoadingSpinner from './LoadingSpinner'
 
 const API_KEY = 'HwOHpSPCCVunbSFRGfICfoaOpIJhA8Bdlume5yGS'
-const APOD_ENDPOINT = `https://api.nasa.gov/planetary/apod?api_key=${API_KEY}`
+const APOD_ENDPOINT = `/planetary/apod?api_key=${API_KEY}`
 
 export default function SinglePage() {
   const { photoId } = useParams()
