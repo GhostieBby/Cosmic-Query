@@ -50,15 +50,22 @@
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+    flex-direction: row;
     a {
       width: calc(100% / 3 - 10px);
       margin-bottom: 15px;
+      margin-right: 10px;
       img {
         width: 100%;
         height: 350px;
         object-fit: cover;
         object-position: top;
       }
+    }
+    &:after {
+      content: '';
+      flex: auto;
+      
     }
   }
 }

@@ -38,7 +38,7 @@ export default function Browse() {
       const response = await axios.get(`${ENDPOINT}&start_date=${startDate}&end_date=${endDate}`)
       if (response.data.length > 0) {
         console.log(response.data)
-        setData(response.data)
+        setData(response.data.slice().reverse())
         setIsLoading(false)
       }
     } catch (error) {
