@@ -44,7 +44,7 @@ body {
   bottom: 0;
   left: 0;
   margin: 1rem;
-  max-height: 200px;
+  max-height: 300px;
   overflow: hidden;
   cursor: default;
   h1 {
@@ -70,6 +70,7 @@ body {
     transition: max-height 0.75s ease;
     max-height: 1000px;
     max-width: 85ch;
+    max-width: 90vw;
     padding: 2rem;
     border-radius: 15px;
     background-color: #000000cd;
